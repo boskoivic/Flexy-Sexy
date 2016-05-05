@@ -1,0 +1,171 @@
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+  font-family:'Lakki Reddy';
+}
+#about-me {
+  background:#E4DBBF;
+}
+  #main-title{
+    color:#DC5B21;
+    text-align:center;
+  }
+
+h1 {
+  font-size:60px !important;
+}
+.about p {
+  width:100%;
+  padding-bottom:30px;
+  font-size:1.3em;
+  color:#70AB8F;
+}
+
+.head {
+  position: relative;
+}
+.head .my-face{
+  width:310px;
+  height:290px;
+  margin:20px 0;
+ background:url(https://farm2.staticflickr.com/1470/26199144272_7d227d153a_o.jpg) center;
+  background-size:cover;
+}
+
+.container {
+  padding:0 50px;
+
+}
+
+
+.navbar {
+  margin-bottom:0;
+
+}
+
+
+@media(max-width:1000px){
+  .head .my-face{
+ margin-left:25%;
+  }
+  p {
+    text-align:center;
+    }
+  }
+}
+@media screen and (max-width: 1080px) {
+  .social-icons {
+    padding:0 !important;  
+  }
+}
+header {
+  text-align:center;
+}
+.cooly {
+  width:80px;
+  float:left;
+padding-top:227px;
+  margin-left:240px;
+}
+
+.porfolio-wrapper {
+   display:flex;
+   flex-direction:row;
+   height:200px;
+  margin-bottom:50px;
+}
+
+#hire-me-btn {
+  line-height:50px;
+  margin-bottom:50px;
+  font-size:34px;
+  margin-top:20px;
+}
+.social-icons {
+  background:;
+  line-height:190px;
+  padding:30px 0;
+}
+
+
+#porfolio-item-1 {
+ background:url(http://vignette2.wikia.nocookie.net/smashbroslawlorigins/images/d/de/Death_note_l_by_nitro7e-d4s4eti.jpg/revision/latest?cb=20140629103157) center no-repeat;
+  background-size:cover;
+    height:100%;
+    width:100%;
+}
+
+#porfolio-item-2 {
+ background:url(http://vignette1.wikia.nocookie.net/mugen/images/5/5b/Light-Yagami-image-light-yagami-36448734-1280-1685.png/revision/latest?cb=20140630013500) center no-repeat;
+  background-size:cover;
+    height:100%;
+    width:100%;
+}
+
+#porfolio-item-3 {
+ background:url(http://www.wallpaper.in/wp-content/uploads/2013/07/332640.jpg) center no-repeat;
+  background-size:cover;
+    height:100%;
+    width:100%;
+}
+#porfolio-item-4 {
+ background:url(http://www.wallpaper.in/wp-content/uploads/2013/07/269244.jpg) center no-repeat;
+  background-size:cover;
+    height:100%;
+    width:100%;
+}
+
+#message {
+  padding:100px;
+  text-align:center;
+}
+
+i {
+  margin:0 10px;
+  
+}
+
+
+
+
+hr.style1 {
+	border-top: 4px double #8c8b8b;
+	text-align: center;
+}
+hr.style1:after {
+	content: '\002665';
+	display: inline-block;
+	position: relative;
+	top: -15px;
+	padding: 0 20px;
+	background: #f0f0f0;
+	color: #8c8b8b;
+	font-size: 18px;
+  } 
+
+hr.style2 {
+  @extend hr.style1;
+  content:;
+  }
+
+hr.style12 { 
+  border: 0; 
+  height: 1px; 
+  background-image: -webkit-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+  background-image: -moz-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+  background-image: -ms-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+  background-image: -o-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0); 
+}
+
+.navbar  {
+  background:#383127;
+
+}
+
+.navbar-nav li a {
+  color:#9966ff;
+}
+
+.navbar-brand {
+   color:#383127;
+}
